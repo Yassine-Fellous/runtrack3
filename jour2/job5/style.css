@@ -1,0 +1,27 @@
+body{
+    min-width: 4096px;
+    min-height: 4096px;
+}
+
+
+footer{
+    position: fixed;
+    background-color: darkorange;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    
+    /* Pour bien le voir */
+    transition: background-color 400ms linear;
+}
+
+footer.scrolled {
+    position: fixed;
+    
+    top: 0;
+    left: 0;
+    right: 0;
+    
+    background-color: forestgreen;
+}
